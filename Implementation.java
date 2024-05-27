@@ -52,7 +52,7 @@ public class Implementation {
         a.add(30,1);
         a.add(40);
         a.remove(0);
-        a.add(50);
+      //  a.add(50);
         System.out.println(a.size());
         for (int i = 0; i < a.size(); i++){
             System.out.println(a.get(i));
