@@ -40,6 +40,7 @@ class arraylist{
         for (int i = index + 1; i < size(); i++){
             a[i - 1] = a[i];
         }
+        a[count-1] = null;
         count--;
     }
 }
